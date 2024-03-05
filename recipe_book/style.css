@@ -1,18 +1,19 @@
 body{
-    background-color: aquamarine;
+    background-image: url('Premium.JPG');
+    color: rgba(151, 160, 159, 0.762);
+    font-family: "Times New Roman", Times, serif;
+ 
 }
-
-
 h1 {
 
-    color: #132771;
+    color: #7a8640;
     font-weight: bolder;
     text-transform:  normal;
     font-size: 300;
 }
 h2 {
-    color: darkmagenta;
-    font-weight: lighter;
+    color: #0b0b0a
+    font-weight: black;
     text-transform: uppercase;
     font-size: bold;
 }
@@ -21,17 +22,18 @@ h2 {
 
 nav ul{
     list-style: none;
-    background-color: chartreuse;
+    background-color: rgb(231, 236, 236);
 }
 
 nav ul li {
     margin-left: 10ex;
-    background-color: aqua;
+    background-color: rgb(127, 163, 163);
 
 }
 nav ul li a{
-    color: black;
+    color: rgb(230, 29, 29);
     text-transform:  uppercase;
     text-decoration: none;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
