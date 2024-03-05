@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+
+
+h1 {
+
+    color: #132771;
+    font-weight: bolder;
+    text-transform:  normal;
+    font-size: 300;
+}
+h2 {
+    color: darkmagenta;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: bold;
+}
+
+
+
+nav ul{
+    list-style: none;
+    background-color: chartreuse;
+}
+
+nav ul li {
+    margin-left: 10ex;
+    background-color: aqua;
+
+}
+nav ul li a{
+    color: black;
+    text-transform:  uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
