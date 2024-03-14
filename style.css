@@ -1,0 +1,10 @@
+#featured-recipe {
+    text-align: center; /* Zentrieren des Inhalts */
+}
+
+#featured-recipe img {
+    max-width: 50%; /* Maximale Breite des Bildes auf 50% der Bildschirmbreite festlegen */
+    height: auto; /* Automatische Höhe, um das Seitenverhältnis zu bewahren */
+    display: block; /* Bild als Blockelement behandeln */
+    margin: 0 auto; /* Automatisches Zentrieren des Bildes horizontal */
+}
