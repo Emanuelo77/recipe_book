@@ -1,10 +1,118 @@
-#featured-recipe {
-    text-align: center; /* Zentrieren des Inhalts */
+body {
+    padding-bottom: 100px;
 }
 
-#featured-recipe img {
-    max-width: 50%; /* Maximale Breite des Bildes auf 50% der Bildschirmbreite festlegen */
-    height: auto; /* Automatische Höhe, um das Seitenverhältnis zu bewahren */
-    display: block; /* Bild als Blockelement behandeln */
-    margin: 0 auto; /* Automatisches Zentrieren des Bildes horizontal */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(./images/cover.jpg);
+    position: center;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+
+}
+.raised-image {
+    margin-bottom: 180px; /* Abstand nach unten hinzufügen */
+}
+
+header img {
+    width: 200px; /* Größe des runden Bildes */
+    height: 200px; /* Größe des runden Bildes */
+    border-radius: 50%; /* Abrunden des Bildes */
+    margin-bottom: 20px; /* Abstand nach unten */
+    box-shadow: 0 0 10px rgba(66, 45, 221, 0.5); /* Schatten um das Bild hinzufügen */
+}
+.blue-line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 10px;
+    background-color: rgb(0, 123, 255)
+   
+}
+h1{
+    margin-top: -150px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+    position: center;
+   
+}
+header h1 {
+    margin-bottom: 0;
+}
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Helligkeit des Hintergrunds einstellen */
+}
+section {
+    margin-top: 450px; /* Platz unter dem fixierten Header schaffen */
+    padding: 50px;
+}
+nav {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    padding: 10px;
+    margin-top: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -50px; /* Reduziere den Abstand nach oben */
+}
+p { 
+    margin-top: -180px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+    position: center;
+
+}
+
+nav ul li a {
+    margin-top: -1500px;
+    text-decoration: none;
+    color: rgb(181, 71, 93);
+    font-weight: bold; /* Dicker Text */
+}
+
+nav ul li:first-child a {
+    color: #fffff /* Textfarbe für das erste Element (Home) */
 }
