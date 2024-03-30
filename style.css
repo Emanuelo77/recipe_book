@@ -1,3 +1,4 @@
+
 body {
     padding-bottom: 100px;
 }
@@ -11,15 +12,23 @@ body, html {
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Aliniere verticală sus */
     align-items: center;
-    height: 100%;
+    height:50vh; /* Înălțime redusă a antetului */
     background-image: url(./images/cover.jpg.jpg);
-    position: center;
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+/* Pentru a mări spațiul de lucru */
+section {
+    padding: 50px;
+    margin-top: 50px; /* Mărește spațiul de lucru între antet și secțiune */
+}
+
+.nav {
+    margin-top: 30px; /* Mărește spațiul de lucru între secțiune și meniu */
 }
 .raised-image {
     margin-bottom: 180px; /* Abstand nach unten hinzufügen */
@@ -101,7 +110,7 @@ p {
     margin-top: -180px;
     font-family: fantasy;
     font-weight: bold;
-    color: white;
+    color: #fff;
     position: center;
 
 }
@@ -109,10 +118,10 @@ p {
 nav ul li a {
     margin-top: -1500px;
     text-decoration: none;
-    color: rgb(181, 71, 93);
+    color: rgb(214, 57, 89);
     font-weight: bold; /* Dicker Text */
 }
 
 nav ul li:first-child a {
-    color: #ffff /* Textfarbe für das erste Element (Home) */
-}
+    color: rgb(214, 57, 89); /* Textfarbe für das erste Element (Home) */
+}#

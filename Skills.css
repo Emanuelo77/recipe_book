@@ -1,0 +1,166 @@
+/* Resetare stiluri implicite */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* Stil pentru antet */
+header {
+    position: relative;
+    text-align: center;
+}
+
+/* Stil pentru fotografia din antet */
+header .raised-image {
+    width: 100%; /* Lățime completă */
+    height: auto; /* Înălțime automată pentru a menține proporțiile */
+}
+
+/* Stil pentru bara de căutare */
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+/* Stil pentru iconurile sociale */
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: auto;
+}
+/* Antet */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    background-image: url(./images/skills.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Adaugăm poziționare relativă pentru a poziționa icoanele absolute */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Culoarea de fundal a footer-ului */
+    padding: 10px 20px; /* Padding pentru spațiere */
+}
+
+/* Stil pentru iconurile din footer */
+/* Stil pentru iconurile din footer */
+.icon-container {
+    position: fixed; /* Facem iconurile fixe pentru a le plasa în partea de jos a paginii */
+    bottom: 40px; /* Spațiu mai mare între iconuri și marginea de jos */
+    right: 20px; /* Spațiu de 20px de la marginea dreaptă */
+    z-index: 999; /* Asigurăm că iconurile sunt afișate peste orice alt conținut */
+    display: flex; /* Utilizăm flexbox pentru a alinia elementele pe aceeași linie */
+}
+
+/* Stil pentru icoane */
+.icon-container img {
+    width: 40px; /* Mărimea icoanelor */
+    height: auto; /* Înălțimea automată pentru a păstra proporțiile */
+    margin-left: 10px; /* Spațiu între icoane */
+}
+/* Spațiu de lucru */
+section {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+/* Meniu de navigare */
+.nav {
+    margin-top: 30px;
+}
+
+/* Linie albastră sub antet */
+.blue-line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 10px;
+    background-color: rgb(0, 123, 255);
+}
+
+/* Stil titlu */
+h1 {
+    margin-top: -150px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Imagine de fundal pentru acoperire */
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/skills.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+/* Stil meniu de navigare */
+nav {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Stil link meniu de navigare */
+nav ul li a {
+    text-decoration: none;
+    color: rgb(214, 57, 89);
+    font-weight: bold;
+}
+
+/* Stil link pentru pagina principală */
+nav ul li:first-child a {
+    color: rgb(214, 57, 89);
+}
