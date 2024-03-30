@@ -1,58 +1,76 @@
 <!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <title>Rezepte zum Frühstück</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style/Media.css">
-    </head>
-    <body>
-        <header>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezepte zum Frühstück</title>
+    <link rel="stylesheet" href="../style/Skills.css">
+    <style>
+        /* Stilizare pentru fundal */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('../images/971411_544207555660704_1875821414_n.jpg'); /* Imaginea de fundal */
+            background-size: cover; /* Acoperire completă a ecranului */
+            background-position: center; /* Poziția imaginii în centru */
+            height: 100vh; /* Înălțimea întregii ferestre vizibile */
+            display: flex;
+            flex-direction: column; /* Elemente aranjate într-o singură coloană */
+            justify-content: center; /* Așezare la mijloc pe axa verticală */
+            align-items: center; /* Așezare la mijloc pe axa orizontală */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Culoarea de fundal pentru conținut */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .container img {
+            border-radius: 50%; /* Face imaginea rotundă */
+            width: 150px; /* Lățimea imaginii */
+            height: 150px; /* Înălțimea imaginii */
+            margin-bottom: 20px; /* Spațiu de la imagine la text */
+        }
+
+        h1 {
+            margin: 0; /* Elimină marginile implicite */
+        }
+
+        .navbar {
+            list-style-type: none; /* Elimină stilurile implicite ale listei */
+            display: flex; /* Așezare flexibilă */
+            gap: 10px; /* Spațiu între butoane */
+            margin-top: 0; /* Elimină marginul de sus */
+            padding: 0; /* Elimină paddingul implicit */
+        }
+
+        .navbar li {
+            margin: 0; /* Elimină marginile implicite */
+        }
+
+        .navbar button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ddd;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
             <img src="../images/971411_544207555660704_1875821414_n.jpg" alt="Beschreibung des Bildes" class="raised-image">
-            <h1>Willkommen Auf Media's Seite</h1>
-
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="./seiten/Media.html">Media</a></li>
-                    <li><a href="./seiten/Skills.html">Skills</a></li>
-                    <li><a href="./seiten/übermich.html">übermich</a></li>
-                </ul>
-            </nav>
-        </nav>
-
-
-
-        <p>Ich hoffe, ihr habt Spaß.</p>
-        
-    </header>
-    
-    <section id="about">
-            
-             
-
-
-
-
-
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <span class="mb-1 mb-md-0 text-body-secondary">© 2024 Emanuel's Media's Seite</span>
-            </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../icon/instagram.svg.png" alt="instagram" class="img-fluid"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../icon/fackebook.svg.png" alt="facebook" class="img-fluid"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../icon/whatsapp.svg" alt="wathsapp" class="img-fluid"></a></li>
+            <h1>Willkommen Auf Skills's Seite</h1>
+            <!-- Bara de Navigare -->
+            <ul class="navbar">
+                <li><button type="button" onclick="window.location.href='index.html'">Home</button></li>
+                <li><button type="button" onclick="window.location.href='Media.html'">Media</button></li>
+                <li><button type="button" onclick="window.location.href='Skills.html'">Skills</button></li>
+                <li><button type="button" onclick="window.location.href='übermich.html'">Übermich</button></li>
             </ul>
-        </footer>
-            </div>
-                  
-            
-            
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-            </body>
-            </html>  
-        </header>
-
-    </body>
+        </div>
+    </header>
+</body>
 </html>
