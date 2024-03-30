@@ -14,7 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-image: url(./images/cover.jpg.jpg);
+    background-image: url(../images/media.jpg);
     position: center;
     width: 100%;
     height: 60%;
@@ -109,10 +109,10 @@ p {
 nav ul li a {
     margin-top: -1500px;
     text-decoration: none;
-    color: rgb(181, 71, 93);
+    color: rgb(168, 181, 71);
     font-weight: bold; /* Dicker Text */
 }
 
 nav ul li:first-child a {
-    color: #ffff /* Textfarbe für das erste Element (Home) */
+    color: #fffff /* Textfarbe für das erste Element (Home) */
 }
