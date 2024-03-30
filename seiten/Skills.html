@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Rezepte zum Frühstück</title>
+    <link rel="stylesheet" href="../style/Skills.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Dyfzc5VHRyXUIoOIbIjO/Wfzn6NUBKVJWu4ijdk53AUdy+tT+cB+c14SB/F2ILen/yoNtfBL/M6mQe9xKs3fKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <style>
         /* Stilizare pentru fundal */
         body {
+            background-color: bisque;
+            color: rgb(41, 80, 176);
             margin: 0;
             padding: 0;
             background-image: url('../images/skills.jpg'); /* Imaginea de fundal */
@@ -17,15 +19,18 @@
             flex-direction: column; /* Elemente aranjate într-o singură coloană */
             justify-content: flex-start; /* Așezare la începutul containerului */
             align-items: center; /* Așezare la mijloc pe axa orizontală */
-            min-height: 150vh; /* Înălțime minimă a ferestrei vizibile */
+            min-height: 100vh; /* Înălțime minimă a ferestrei vizibile */
+            zoom: 1.5; /* Mărește conținutul paginii */
         }
 
         .container {
-            background-color: rgba(255, 255, 255, 0.8); /* Culoarea de fundal pentru conținut */
+            background-color: rgba(236, 154, 47, 0.8); /* Culoarea de fundal pentru conținut */
+           color: aquamarine;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             margin-top: 20px; /* Spațiu de la marginea de sus */
+            margin-bottom: auto; /* Poziționează containerul la partea de sus a paginii */
         }
 
         .container img {
@@ -55,9 +60,35 @@
         .navbar button {
             padding: 10px 20px;
             border: none;
-            background-color: #ddd;
+            background-color: #e1dcdcb9;
             cursor: pointer;
             border-radius: 5px;
+        }
+
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            margin-top: auto; /* Poziționează footer-ul la partea de jos a paginii */
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer p {
+            margin: 0;
+            padding-right: 10px;
+        }
+
+        .footer .fab {
+            font-size: 24px;
+            margin: 0 5px;
+            color: #981010;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -79,9 +110,9 @@
         <div class="footer">
             <p>&copy; 2024 Emanuel's Skillst Seite</p>
             <!-- Icoanele Font Awesome -->
-            <span class="fab fa-instagram"></span>
-            <span class="fab fa-facebook"></span>
-            <span class="fab fa-whatsapp"></span>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-whatsapp"></a>
             <!-- Poți adăuga mai multe icoane aici -->
         </div>
     </footer>
