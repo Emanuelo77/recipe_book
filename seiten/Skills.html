@@ -8,53 +8,50 @@
     <style>
         /* Stilizare pentru fundal */
         body {
-            background-color: bisque;
+            background: bisque url('../images/skills.jpg') center/cover no-repeat;
             color: rgb(41, 80, 176);
             margin: 0;
             padding: 0;
-            background-image: url('../images/skills.jpg'); /* Imaginea de fundal */
-            background-size: cover; /* Acoperire completă a ecranului */
-            background-position: center; /* Poziția imaginii în centru */
             display: flex;
-            flex-direction: column; /* Elemente aranjate într-o singură coloană */
-            justify-content: flex-start; /* Așezare la începutul containerului */
-            align-items: center; /* Așezare la mijloc pe axa orizontală */
-            min-height: 100vh; /* Înălțime minimă a ferestrei vizibile */
-            zoom: 1.5; /* Mărește conținutul paginii */
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            zoom: 1.5;
         }
 
         .container {
-            background-color: rgba(236, 154, 47, 0.8); /* Culoarea de fundal pentru conținut */
-           color: aquamarine;
+            background-color: rgba(236, 154, 47, 0.8);
+            color: aquamarine;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            margin-top: 20px; /* Spațiu de la marginea de sus */
-            margin-bottom: auto; /* Poziționează containerul la partea de sus a paginii */
+            margin-top: 20px;
+            margin-bottom: auto;
         }
 
         .container img {
-            border-radius: 50%; /* Face imaginea rotundă */
-            width: 150px; /* Lățimea imaginii */
-            height: 150px; /* Înălțimea imaginii */
-            margin-bottom: 20px; /* Spațiu de la imagine la text */
-            margin-top: 20px; /* Spațiu de la marginea de sus */
+            border-radius: 50%;
+            width: 100px; /* Dimensiunea redusă */
+            height: 100px; /* Dimensiunea redusă */
+            margin: 10px; /* Spațiu mai mic */
         }
 
         h1 {
-            margin: 0; /* Elimină marginile implicite */
+            margin: 5px 0; /* Margin mai mic */
+            font-size: 24px; /* Dimensiunea textului mai mică */
         }
 
         .navbar {
-            list-style-type: none; /* Elimină stilurile implicite ale listei */
-            display: flex; /* Așezare flexibilă */
-            gap: 10px; /* Spațiu între butoane */
-            margin-top: 0; /* Elimină marginul de sus */
-            padding: 0; /* Elimină paddingul implicit */
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
         }
 
         .navbar li {
-            margin: 0; /* Elimină marginile implicite */
+            margin: 0;
         }
 
         .navbar button {
@@ -70,7 +67,7 @@
             padding: 20px;
             text-align: center;
             width: 100%;
-            margin-top: auto; /* Poziționează footer-ul la partea de jos a paginii */
+            margin-top: auto;
         }
 
         .footer {
@@ -106,6 +103,7 @@
             </ul>
         </div>
     </header>
+
     <footer>
         <div class="footer">
             <p>&copy; 2024 Emanuel's Skillst Seite</p>
